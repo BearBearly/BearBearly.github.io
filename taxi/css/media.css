@@ -1,0 +1,228 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	h2{
+		text-align: center;
+	}
+
+	.about .left,
+	.about .right{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.testimonials ul li,
+	.services ul li,
+	.contact_info .left,
+	.contact_info .right{
+		display: block;
+		margin: 20px auto;
+	}
+
+	.cars {
+		text-align: center;
+	}
+
+	.cars ul{
+		display: block;
+	}
+
+	.cars ul li {
+		margin: 0 auto;
+	}
+
+	.triggers ul{
+		display: block;
+		text-align: center;
+	}
+
+	.triggers ul li{
+		text-align: left;
+		margin: 0 20px 40px 20px;
+	}
+
+	.booking_form .center{
+		padding: 0 20px;
+		display: block;
+	}
+
+	.booking_form .form{
+		margin: 0 auto;
+	}
+
+	.car_links{
+		width: 100%;
+	}
+
+	.car_links ul{
+		margin-top: 40px;
+	}
+
+	.car_links ul li{
+		margin: 10px auto;
+		width: 433px;
+		height: auto;
+	}
+
+	.car_links ul li span{
+		bottom: 5px;
+	}
+
+	.car_links ul li img{
+		max-width: 100%;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {	
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.about .left img{
+		width: 100%;
+	}
+
+	.contacts .contact_info{
+		padding: 0 20px;
+	}
+
+	.contacts .contact_info .right input[type="text"]{
+		margin: 5px 0;
+		width: 100%;
+	}
+
+	.about .left,
+	.about .rght{
+		padding: 0 20px;
+	}
+
+	.main_menu nav a{
+		padding: 2.5px 18.8px;
+		margin: 0;
+	}
+
+	.to_action a:before{
+		content: '';
+	}
+
+	.to_action .center{
+		background: transparent;
+	}
+
+	footer .center{
+		display: block;
+		text-align: center;
+		margin: 0 30px;
+	}
+
+	footer .soc{
+		margin: 15px 0;
+	}	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.mnu_toggle{
+		display: block;
+	}
+
+	.logo_section{
+		margin-top: 60px;
+	}
+
+	.main_menu{
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		padding-top: 60px;
+	}
+
+	.main_menu nav{
+		display: none;
+	}
+
+	.main_menu nav a{
+		display: block;
+	}
+
+	.slider button{
+		background-color: transparent;
+	}
+
+	.slider button:hover{
+		background-color: transparent;
+	}
+
+	.triggers ul li{	
+		width: auto;
+		height: auto;
+		margin: 0 0 20px 0;
+		padding-bottom: 50px;
+	}
+
+	.booking_form .form{
+		width: auto;
+	}	
+
+	.car_links ul li{
+		width: auto;
+	}
+
+	.booking_form .input_smalls input[type="text"]{
+		width: 100%;
+	}
+
+	.booking_form .selects label ins{
+		display: block;
+	}
+
+	.booking_form .radio_buttons label span{
+		margin-right: 10px;
+	}
+
+	.booking_form input[type="submit"]{
+		width: 100%;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
