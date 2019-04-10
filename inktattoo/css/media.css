@@ -1,0 +1,221 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.s_team .team_form{
+		padding: 0 65px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	header nav ul li{
+		display: block;
+		margin: 13px 0;
+	}
+
+	header nav ul li a{
+		display: block;
+		margin: 0 auto;
+		border: 2px solid #000;
+		width: 115px;
+		height: 30px;
+	}
+
+	header nav ul img{
+		margin: 20px 0;
+	}
+
+	.s_twitt .text{
+		margin: 0 50px;
+		text-align: center;
+	}
+
+	.s_contact .wrapper{
+		text-align: center;
+	}
+
+	.s_contact .wrapper .info{
+		margin-right: 0;
+	}
+
+	.s_contact .soc_block{
+		margin: 40px 0;
+	}
+
+	.s_contact form{
+		margin-bottom: 30px;
+	}
+
+	.s_contact form input[type='text'], .s_contact form textarea{
+		margin-bottom: 20px;
+	}
+
+	.s_team .s_team_title{
+		background: #afac9d;
+	}
+
+	.s_team .team_form{
+		text-align: center;
+	}
+
+	.s_team .team_form form input{
+		width: 500px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	.about_us .title_block{
+		padding-top: 50%;
+	}
+
+	.about_us .text_block{
+		padding-bottom: 20px;
+	}
+
+	.about_us .text_block .logo{
+		padding-top: 50px;
+	}
+
+	.about_us .text_block .text_block_title{
+		margin: 15px 50px;
+	}
+	.about_us .text_block p{
+		padding: 5px 50px;
+	}
+
+	.s_testimonial .testimonial{
+		margin: 155px 65px;
+	}
+
+	.s_contact .soc_block .soc_block_item{
+		margin: 0 15px;
+	}
+
+	.s_team .team_form{
+		padding: 0;
+		text-align: center;
+	}
+
+	footer .logo{
+		display: block;
+		margin: 35px 0;
+	}
+
+	.s_team .team_photo img{
+		width: auto;
+	}
+
+	.s_team .team_form form input{
+		width: 100%;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+	.s_team .team_photo img{
+		width: 100%;
+	}
+
+	.s_about_us .text_block .text_block_title{
+		margin: 25px 35px;
+	}
+
+	.s_about_us .text_block p{
+		padding: 5px 15px;
+	}
+
+	.s_gallery .s_gallery_item .gall_item_cont .popup_content_g{
+		margin: 0;
+	}
+
+	.about_us .text_block p{
+		text-align: center;
+	}
+
+	.s_about_us .text_block{
+		padding-bottom: 30px;
+	}
+
+	.s_testimonial .testimonial .author{
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+
+	.s_twitt .text{
+		font-size: 18px;
+	}
+
+	.s_contact .soc_block{
+		margin-right: 0;
+	}
+
+	.s_contact .soc_block .soc_block_item{
+		margin: 0 7px;
+	}
+
+	.s_contact form input, .s_contact form textarea{
+		width: 100%;
+	}
+
+	.soc_block .soc_block_item {
+		margin: 0 8px;
+		line-height: 60px;
+	}
+
+	.s_team .team_info .title{
+		margin: 0 35px;
+	}
+
+	.s_testimonial .testimonial .text:before{
+		display: none;
+	}
+
+	.s_testimonial .testimonial .text:after{
+		display: none;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

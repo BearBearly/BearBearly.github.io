@@ -1,0 +1,125 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	header .header_navigation .logo{
+		margin-left: 15px;
+	}
+
+	header .header_navigation .name{
+		right: 68px;
+	}
+
+	header .header_navigation .hamburger{
+		right: 30px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	header .header_content .descr{
+		margin: 0 130px;
+	}
+
+	.s_clients .items{
+		display: block;
+		text-align: center;
+	}
+
+	.s_clients .items .item{
+		display: inline-block;
+		margin: 20px;
+	}
+
+	footer{
+		display: block;
+		text-align: center;
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	footer .logo_and_copy .copyright{
+		display: block;
+		margin: 20px 0;
+	}
+
+	footer .soc{
+		margin-top: 40px;
+	}
+
+	footer .soc .text{
+		display: block;
+		margin: 20px 0;
+	}
+
+	.s_contact .map_block .map img{
+		width: 100%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.s_testimonial .slick_slider .slide .quote{
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+
+	header .header_content .descr{
+		margin: 0 10px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.s_testimonial .slick_slider .slide .quote{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+	.s_contact .form_block form label input, 
+	.s_contact .form_block form label textarea{
+		display: block;
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.s_contact .form_block form .btn{
+		float: none;
+		width: 50%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

@@ -1,0 +1,244 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.s_checking_devices_and_how_we_work .right_title{
+		left: 22%;
+	}
+
+	.main_head .main_nav .navigation ul li{
+		margin-right: 0;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.s_checking_devices_and_how_we_work .checking_devices .checking_devices_bnt{
+		margin-top: 20px;
+	}
+
+	.s_checking_devices_and_how_we_work .checking_devices .checking_devices_item img{
+		margin-bottom: 15px;
+	}
+
+	.s_checking_devices_and_how_we_work .checking_devices .checking_devices_item{
+		margin-bottom: 35px;
+	}
+
+	.s_checking_devices_and_how_we_work .how_we_work .steps .step img{
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	.s_checking_devices_and_how_we_work .how_we_work .steps .step span{
+		display: block;
+		margin: auto;
+	}
+
+	.s_checking_devices_and_how_we_work .how_we_work .steps .step{
+		height: auto;
+		margin-left: 0;
+		padding-bottom: 45px;
+	}
+
+	.s_checking_devices_and_how_we_work .how_we_work .steps .step{
+		margin-right: 0;
+		text-align: center;
+	}
+
+	.s_checking_devices_and_how_we_work .how_we_work{
+		position: static;
+		padding-top: 0;
+		margin-top: 60px;
+	}
+
+	.s_checking_devices_and_how_we_work .right_title{
+		position: static;
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	.s_why_us .s_why_us_form{
+		margin-top: 30px;
+	}
+
+	.main_head .main_nav{
+		text-align: center;
+	}
+
+	.main_head .main_nav .logo_container{
+		display: block;
+		margin-top: 35px;
+	}
+
+	.main_head .main_nav .navigation{
+		float: none;
+	}
+
+	.block_title:before{
+		top: 47px;
+		left: 42%;
+	}
+
+	.block_title{
+		display: block;
+		position: relative;
+		margin: 50px 0 70px 0;
+		text-align: center;
+	}
+
+	.s_checking_devices_and_how_we_work .right_title:before{
+		top: 60.5%;
+		left: 42%;
+	}
+
+	.main_footer .contacts_block{
+		margin-top: 30px;
+		display: block;
+		float: none;
+		text-align: center;
+	}
+
+	.main_footer .contacts_block .item{
+		display: inline-block;
+		margin-right: 65px;
+	}
+
+	.main_footer .navigation{
+		float: right;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.main_footer .navigation ul li{
+		margin-right: 0;
+	}
+
+	.main_footer .navigation{
+		float: none;
+	}
+
+	.main_footer .logo_container,
+	.main_footer .navigation{
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+
+	.main_footer .navigation{
+		margin-top: 35px;
+	}
+
+	.main_footer .contacts_block .item{
+		display: block;
+		margin-right: 0;
+	}
+
+	.s_why_us .advantages .advantage{
+		min-height: 135px;
+	}
+
+	.block_title{
+		margin-bottom: 50px;
+	}
+
+	.block_title:before{
+		display: none;	
+	}
+
+	.s_checking_devices_and_how_we_work .right_title:before{
+		display: none;
+	}
+
+	.s_why_us .advantage{
+		min-height: 145px;
+	}
+
+	.main_head .main_head_banner{
+		padding-bottom: 40px;
+	}
+
+	.main_head .main_head_banner .descr{
+		margin: 20px 0;
+	}
+
+	.main_head .main_head_banner .title{
+		line-height: normal;
+	}
+
+	.main_head .main_nav .navigation{
+		margin: 25px 0;
+	}
+
+	.main_head .main_nav .navigation ul li{
+		display: block;
+		line-height: normal;
+		padding: 14px 0;
+	}
+
+	.main_head .top_line .content{
+		display: block;
+		text-align: center;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	#popup input{
+		width: 100%;
+	}
+
+	.s_why_us .s_why_us_form input{
+		width: 100%;
+	}
+
+	.s_why_us .s_why_us_form{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+	.main_head .main_head_banner .btn{
+		padding: 16.5px 70.5px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

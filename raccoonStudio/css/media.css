@@ -1,0 +1,294 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.s_design_development .card .info{
+		padding-right: 35px;
+	}
+
+	.s_header .contacts .tel{
+		margin-left: 0;
+		margin-right: 16px;
+	}
+
+	nav{
+		text-align: right;
+	}
+
+	.s_set .set .info .info_descr{
+		padding-right: 0;
+	}
+
+	.s_sets_and_gift .block_gift .block_gift_form{
+		text-align: center;	
+
+	}
+
+	.s_sets_and_gift .block_gift .block_gift_form input{
+		display: block;
+		margin: auto;
+		margin-bottom: 25px;
+		width: 550px;
+		text-align: center;
+		padding: 0;
+	}
+
+	.s_sets_and_gift .block_gift .block_gift_form input.btn{
+		margin: auto;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.s_design .info .title,
+	.s_design .info .descr{
+		background: rgba(0,0,0, .5);
+		display: inline-block;
+		padding: 15px 23px;
+	}
+
+	.s_header .contacts{
+		text-align: right;
+	}
+
+	.s_design .info{
+		text-align: center;
+	}
+
+	.s_design .info .title{
+		line-height: 46px;
+	}
+
+	.s_set .title{
+		text-align: center;
+		line-height: 34px;
+	}
+
+	.s_set .set .image{
+		left: 15px;
+	}
+
+	.s_set .set{
+		text-align: center;
+	}
+
+	.s_sets_and_gift .block_gift .gift_img img{
+		display: none;	
+	}
+
+	.s_sets_and_gift .block_gift .about_gift{
+		margin-top: 70px;
+	}
+
+	.s_sets_and_gift .title{
+		text-align: center;
+	}
+
+	.s_sets_and_gift .set .image{
+		left: 35px;
+	}
+
+	.s_sets_and_gift .set .info{
+		margin-left: 200px;
+	}
+
+	.s_design_development .container .baner{
+		left: -10px;
+	}
+
+	.s_galery .title{
+		padding-left: 10px;
+	}
+
+	.s_galery button.slick-prev,
+	.s_galery button.slick-next{
+		background: none;
+	}
+
+	.s_footer .logo_and_contacts .logo{
+		padding: 0 40px;
+	}
+
+	.s_footer .logo_and_contacts .contacts{
+		margin-top: 5px;
+		padding-left: 0;
+	}
+
+	.s_footer  .logo_and_contacts .contacts p{
+		margin: 8px 0;
+	}
+
+	.s_footer .logo_and_contacts .contacts:after{
+		display: none;
+	}
+
+	.s_footer .logo_and_contacts .soc_icons{
+		margin-top: 15px;
+	}
+
+	.s_footer{
+		text-align: center;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.s_contacts .block_gift_form{
+		padding: 0 50px;
+	}
+
+	.s_design_development .container{
+		overflow: hidden;
+	}
+
+	.s_design_development .card{
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.logo{
+		text-align: center;
+	}
+
+	nav{
+		text-align: center;
+	}
+
+	.s_header .contacts{
+		text-align: center;
+	}
+
+	.s_header .contacts .tel{
+		display: block;
+	}
+
+	.s_header .contacts .soc_icons a{
+		margin-right: 35px;
+	}
+
+	.s_set .set .info .info_descr{
+		padding-right: 0;
+	}
+
+	.s_sets_and_gift .block_gift{
+		text-align: center;
+	}
+
+	.s_sets_and_gift .block_gift .about_gift{
+		width: auto;
+		text-align: center;
+		padding: 71px 40px;
+	}
+
+	.s_sets_and_gift .block_gift .about_gift .about{
+		padding-right: 0;
+	}
+
+	.s_sets_and_gift .block_gift .about_gift .titile{
+		margin-bottom: 20px;
+	}
+
+	.s_sets_and_gift .block_gift .block_gift_form input{
+		max-width: 400px;
+	}
+
+	.s_design_development .container .baner{
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	.s_contacts .block_gift_form{
+		padding: 0 10px;
+		margin-bottom: 30px;
+	}
+
+	.s_contacts .title{
+		padding-left: 10px;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+
+	.s_design_development .container .baner p{
+		margin-left: 0;
+	}
+
+	.s_design_development .container .baner{
+		text-align: center;
+		margin: 0 10px;
+		width: auto;
+	}
+
+	.s_sets_and_gift .block_gift .block_gift_form{
+		padding: 0 10px;
+	}
+
+	.s_design_development .card .info{
+		padding-left: 135px;
+		padding-right: 10px;
+	}
+
+	.s_sets_and_gift .set .info{
+		margin-left: 150px;
+	}
+
+	.s_sets_and_gift .set .info .info_descr{
+		padding-right: 10px;
+		font-size: 15px;
+	}
+
+	.s_sets_and_gift .block_gift .about_gift{
+		width: auto;
+		text-align: center;
+		padding: 71px 15px;
+	}
+
+	.s_sets_and_gift .block_gift .block_gift_form input{
+		width: 100%;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

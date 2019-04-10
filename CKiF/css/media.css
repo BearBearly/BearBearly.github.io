@@ -1,0 +1,223 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	.s_main_head .top_line .phone{
+		position: relative;
+		display: inline-block;
+		margin-bottom: 20px;
+	}
+
+	.s_map .btn_info{
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	.s_map .jselector{
+		position: absolute;
+		top: -400px;
+		left: 0;
+		right: 0;
+		width: 400px;
+		margin: auto;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.s_main_head .middle_line{
+		top: -300px;
+	}
+
+	.s_main_head .middle_line .left{
+		padding-left: 10px;
+	}
+
+	.s_main_head .middle_line .right{
+		padding-right: 10px;
+	}
+
+	.s_main_head{
+		position: static;
+		height: 2020px;	
+		clear: both;
+	}
+
+	.s_main_head:after{
+		bottom: 0;
+
+	}
+
+	.s_what_is_it{
+		position: relative;	
+	}
+
+	.s_main_head .bottom_line{
+		top: -240px;
+	}
+
+	.item{
+		height: 250px;
+	}
+
+	.s_what_is_it{
+		height: 880px;
+	}
+
+	.s_what_is_it .product{
+		position: static;
+		margin-top: -200px;
+	}
+
+	.s_what_is_it .text{
+		float: none;
+		text-align: center;
+		position: absolute;
+		top: 445px;
+		padding: 0;
+	}
+
+	.s_what_is_it .text .info{
+		margin: auto;
+	}
+
+	.main_foot .main_foot_form input,
+	.main_foot .main_foot_form .btn_sub{
+		display: block;
+		margin: auto;
+		margin-bottom: 20px;
+		width: 400px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.s_main_head{
+		height: 2520px;	
+	}
+
+	.s_main_head .top_line .logo{
+		font-size: 65px;
+	}
+
+	.s_main_head .top_line .main_title{
+		font-size: 33px;
+	}
+
+	.s_main_head .bottom_line .main_head_btn{
+		width: 250px;
+		height: auto;
+		line-height: normal;
+		padding: 12px 20px;
+	}
+
+	.s_what_is_it .product{
+		margin-top: 0;
+	}
+
+	.s_what_is_it .text{
+		top: 425px;
+		left: 0;
+		right: 0;
+	}
+
+	.s_choice .s_choice_wrap .s_choice_btns .btn_delivery,
+	.s_choice .s_choice_wrap .s_choice_btns .btn_map{
+		display: block;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	.s_choice .s_choice_wrap .img_block .s_choice_img{
+		display: none;
+	}
+
+	.main_foot .soc_block .vk, .main_foot .soc_block .inst, .main_foot .soc_block .phone{
+		display: block;
+		margin:auto;
+		margin-bottom: 35px;
+	}
+
+	.main_foot .main_foot_titile{
+		font-size: 32px;
+		letter-spacing: 2.8px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.main_foot .main_foot_form input,
+	.main_foot .main_foot_form .btn_sub{
+		width: 270px;
+	}
+
+	.s_map .jselector{
+		width: 300px;
+	}
+
+	.s_what_is_it{
+		height: 740px;
+	}
+
+	.s_what_is_it .product{
+		margin-top: 45px;
+	}
+
+	.s_what_is_it .text{
+		top: 290px;
+		left: 0;
+		right: 0;
+	}
+
+	.s_what_is_it .text .info{
+		width: 100%;
+		padding: 0 17px;
+	}
+	.s_main_head .middle_line .goods .goods_title{
+		font-size: 28px;
+	}
+
+	.s_main_head .top_line .phone:before{
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

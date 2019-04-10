@@ -1,0 +1,574 @@
+*:focus::-webkit-input-placeholder{
+	opacity: 0; transition: opacity 0.3s ease;
+}
+*:focus::-moz-placeholder{
+	opacity: 0; transition: opacity 0.3s ease;
+}
+*:focus:-moz-placeholder{
+	opacity: 0; transition: opacity 0.3s ease;
+}
+*:focus:-ms-input-placeholder{
+	opacity: 0; transition: opacity 0.3s ease;
+}
+
+body{
+	font-family: "GothamPro-Light";
+	font-size: 14px;
+	color: #fff;
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+.container{
+	padding: 0;
+}
+
+.s_header{
+	min-height: 50px;
+	background-color: #4c4c4c;
+	border-bottom: 1px solid rgba(255, 255, 255, .3);
+	box-sizing: border-box;
+}
+
+.s_header .logo{
+	margin: 7px 0;
+}
+
+.s_header .main_nav ul li{
+	font-size: 0;
+	display: inline-block;
+	margin-right: 61px;
+	transition: .2s;
+}
+
+.s_header .main_nav ul li:last-child{
+	margin-right: 0;
+}
+
+.s_header .main_nav ul li a{
+	font-family: "GothamPro-Light";
+	color: #fff;
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 18px;
+	padding-bottom: 14px;
+	border-bottom: 2px solid transparent;
+	opacity: .7;
+	transition: .2s;
+}
+
+.s_header .main_nav ul li:hover a{
+	border-bottom: 2px solid #fff;
+	opacity: 1;
+}
+
+.s_header .contacts{
+	font-size: 0;
+}
+
+.s_header .contacts .tel{
+	line-height: 50px;
+	font-family: "GothamPro-Medium";
+	font-size: 18px;
+	display: inline-block;
+	margin-left: 6px;
+	margin-right: 64px;
+}
+
+.s_header .contacts .soc_icons{
+	display: inline-block;
+}
+
+.s_header .contacts .soc_icons a{
+	margin-right: 18px;
+}
+
+.s_header .contacts .soc_icons a:last-child{
+	margin-right: 0;
+}
+
+.s_header .contacts .soc_icons a img{
+	padding-bottom: 10px;
+	transition: .2s;
+	opacity: .8;
+}
+
+.s_header .contacts .soc_icons a img:hover{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.s_design{
+	position: relative;
+	background-color: #323232;
+	min-height: 488px;
+}
+
+.s_design .info{
+	z-index: 1;
+}
+
+.s_design .info .title{
+	margin-top: 165px;
+	margin-bottom: 12px;
+	font-family: "GothamPro-Bold";
+	text-transform: uppercase;
+	font-size: 36px;
+	line-height: 35px;
+}
+
+.s_design .info .descr{
+	font-family: "GothamPro";
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.s_design .info a{
+	display: inline-block;
+	background-color: #ffc71d;
+	border-radius: 3px;
+	padding: 18px 66px;
+	margin-top: 36px;
+	font-family: "GothamPro-Medium";
+	font-size: 14px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #4c4c4c;
+	transition: .2s;
+}
+
+.s_design .info a:hover{
+	opacity: .9;
+}
+
+.s_design .image{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.s_sets_and_gift{
+	background-color: #2c2c2c;
+	padding-bottom: 50px;
+}
+
+.s_sets_and_gift .title{
+	margin-top: 50px;
+	font-family: "GothamPro-Bold";
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.s_sets_and_gift .set{
+	position: relative;
+	margin-top: 51px;
+}
+
+.s_sets_and_gift .set .image{
+	position: absolute;
+	top: 7px;
+}
+
+.s_sets_and_gift .set .info{
+	margin-left: 130px;
+}
+
+.s_sets_and_gift .set .info .info_title{
+	font-family: "GothamPro-Bold";
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.s_sets_and_gift .set .info .info_descr{
+	font-family: "GothamPro";
+	font-size: 18px;
+	line-height: 1.52;
+	opacity: .7;
+	color: #fff;
+	padding-right: 60px;
+}
+
+.s_sets_and_gift .block_gift{
+	text-align: right;
+}
+
+.s_sets_and_gift .block_gift .gift_img{
+	position: relative;
+}
+
+.s_sets_and_gift .block_gift .gift_img img{
+	position: absolute;
+	left: -25px;
+	top: 60px;
+	max-width: 100%;
+}
+
+.s_sets_and_gift .block_gift .about_gift{
+	margin-top: 50px;
+	background: #181818;
+	display: inline-block;
+	width: 630px;
+	height: auto;
+	padding: 71px 0;
+	padding-left: 90px;
+	text-align: left;
+	box-shadow: 0 25px 25px 0 rgba(0, 0, 0, .3);
+}
+
+.s_sets_and_gift .block_gift .about_gift .titile{
+	font-family: "GothamPro-Bold";
+	font-size: 36px;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.s_sets_and_gift .block_gift .about_gift .descr{
+	font-family: "GothamPro-Medium";
+	font-size: 24px;
+	line-height: 26px;
+	opacity: .7;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.s_sets_and_gift .block_gift .about_gift .about{
+	font-family: "GothamPro-Medium";
+	font-size: 18px;
+	line-height: 23px;
+	opacity: .77;
+	display: inline-block;
+	padding-right: 50px;
+	font-weight: 500;
+}
+
+.s_sets_and_gift .block_gift .block_gift_form{
+	text-align: left;
+	margin-top: 60px;
+}
+
+.s_sets_and_gift .block_gift .block_gift_form label{
+	font-family: "GothamPro-Bold";
+	font-size: 24px;
+	text-transform: uppercase;
+	margin-right: 25px;
+	display: inline-block;
+	margin-bottom: 15px;
+	cursor: default;
+}
+
+.s_sets_and_gift .block_gift .block_gift_form input{
+	font-family: "GothamPro-Light";
+	font-size: 18px;
+	width: 264px;
+	height: 52px;
+	line-height: 52px;
+	padding-left: 20px;
+	border-radius: 3px;
+	border: .3px solid #efefef;
+	margin-right: 35px;
+	color: #000;
+}
+
+.s_sets_and_gift .block_gift .block_gift_form input.btn{
+	margin-right: 0;
+}
+
+.s_sets_and_gift .block_gift .block_gift_form .btn{
+	background-color: #ffc71d;
+	font-family: "GothamPro-Medium";
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #4c4c4c;
+	transition: .2s;
+}
+
+.s_sets_and_gift .block_gift .block_gift_form .btn:hover{
+	opacity: .9;
+}
+
+.s_design_development{
+	position: relative;
+	height: auto;
+	width: 100%;
+	background: #2c2c2c;
+}
+
+.s_design_development .top_bg{
+	margin-bottom: 45px;
+}
+
+.s_design_development .top_bg img{
+	width: 100%;
+}
+
+.s_design_development .container{
+	overflow: visible;
+}
+
+.s_design_development .container .baner{
+	position: absolute;
+	top: -130px;
+	left: -20px;
+	z-index: 2;
+	width: 467px;
+	height: 144px;
+	border-radius: 3px;
+	background: #ffc71d url("../img/s_design_development_banner_img.png") no-repeat top left;
+	box-shadow: 0 15px 25px 0 rgba(0, 0, 0, .1);
+	font-family: "GothamPro-Bold";
+	text-transform: uppercase;
+	line-height: normal;
+	color: #353535;
+	text-align: left;
+}
+
+.s_design_development .container .baner p{
+	padding-top: 45px;
+	margin-left: 65px;
+	font-size: 24px;
+}
+
+.s_design_development .container .baner p span{
+	display: block;
+	font-size: 36px;
+}
+
+.s_design_development .card{
+	padding: 20px 0;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	background: #353535;
+	box-shadow: 0 15px 25px 0 rgba(0, 0, 0, .1);
+}
+
+.s_design_development .card .step{
+	float: left;
+	display: inline-block;
+	margin: 25.5px;
+}
+
+.s_design_development .card .info{
+	text-align: left;
+	width: 100%;
+	min-height: 161px;
+	padding-left: 185px;
+	padding-right: 135px;
+}
+
+.s_design_development .card .info .titile{
+	padding-top: 30px;
+	font-family: "GothamPro-Bold";
+	font-size: 18px;
+	line-height: 1.35;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.s_design_development .card .info .descr{
+	font-family: "GothamPro";
+	font-size: 14px;
+	line-height: 1.52;
+	opacity: .7;
+}
+
+.s_galery{
+	width: 100%;
+	min-height: 410px;
+	background: -webkit-gradient(linear, left bottom, left top, from(#252525), color-stop(50%, #4f4f4f), to(#4f4f4f));
+	background: -webkit-linear-gradient(bottom, #252525 0%, #4f4f4f 50%, #4f4f4f 100%);
+	background: -moz-linear-gradient(bottom, #252525 0%, #4f4f4f 50%, #4f4f4f 100%);
+	background: -o-linear-gradient(bottom, #252525 0%, #4f4f4f 50%, #4f4f4f 100%);
+	background: linear-gradient(to top, #252525 0%, #4f4f4f 50%, #4f4f4f 100%);
+	box-shadow: 0 15px 25px 0 rgba(0, 0, 0, .07);
+}
+
+.s_galery .container{
+	overflow: visible;
+}
+
+.s_galery .title{
+	font-family: "GothamPro-Bold";
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 1.52;
+	margin: 30px 0;
+}
+
+.s_galery .item img{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+
+.s_galery button{
+	position: absolute;
+	border: none;
+	font-size: 0;
+	width: 44px;
+	height: 85px;
+}
+
+.s_galery button.slick-prev{
+	left: -6%;
+	background: url('../img/arrow_prev.png');
+	z-index: 1;
+}
+
+.s_galery button.slick-prev:before{
+	display: none;
+}
+
+.s_galery button.slick-next{
+	right: -6%;
+	background: url('../img/arrow_next.png');
+	z-index: 1;
+}
+
+.s_galery button.slick-next:before{
+	display: none;
+}
+
+.s_contacts{
+	background: #2c2c2c;
+}
+
+.s_contacts .title{
+	font-family: "GothamPro-Bold";
+	font-size: 24px;
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+
+.s_contacts .block_gift_form{
+	text-align: left;
+	padding-bottom: 20px;
+}
+
+.s_contacts .block_gift_form label{
+	font-family: "GothamPro-Medium";
+	font-size: 24px;
+	display: block;
+	margin-bottom: 10px;
+	cursor: default;
+}
+
+.s_contacts .block_gift_form input,
+		.s_contacts .block_gift_form textarea{
+	margin-bottom: 10px;
+	font-family: "GothamPro-Light";
+	font-size: 18px;
+	width: 100%;
+	height: 52px;
+	line-height: 52px;
+	padding-left: 20px;
+	border-radius: 3px;
+	border: .3px solid #efefef;
+	color: #000;
+}
+
+.s_contacts .block_gift_form textarea{
+	resize: none;
+	height: 153px;
+}
+
+.s_contacts .block_gift_form .btn{
+	margin-top: 10px;
+	background-color: #ffc71d;
+	font-family: "GothamPro-Medium";
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #4c4c4c;
+	transition: .2s;
+}
+
+.s_contacts .block_gift_form .btn:hover{
+	opacity: .9;
+}
+
+.s_footer{
+	width: 100%;
+	min-height: 410px;
+	border-top: 1px solid rgba(255, 255, 255, .3);
+	background: -webkit-gradient(linear, left bottom, left top, from(#252525), color-stop(10%, #252525), to(#4f4f4f));
+	background: -webkit-linear-gradient(bottom, #252525 0%, #252525 10%, #4f4f4f 100%);
+	background: -moz-linear-gradient(bottom, #252525 0%, #252525 10%, #4f4f4f 100%);
+	background: -o-linear-gradient(bottom, #252525 0%, #252525 10%, #4f4f4f 100%);
+	background: linear-gradient(to top, #252525 0%, #252525 10%, #4f4f4f 100%);
+	box-shadow: 0 15px 25px 0 rgba(0, 0, 0, .07);
+}
+
+.s_footer .logo_and_contacts{
+	margin-top: 20px;
+}
+
+.s_footer .logo_and_contacts .logo img{
+	width: 100%;
+}
+
+.s_footer .logo_and_contacts .contacts{
+	font-family: "ClearSans-Bold";
+	font-size: 18px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	margin-top: 25px;
+}
+
+.s_footer .logo_and_contacts .contacts:after{
+	content: '';
+	width: 360px;
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: rgba(255, 255, 255, .3);
+}
+
+.s_footer .logo_and_contacts .contacts span{
+	margin-right: 35px;
+}
+
+.s_footer .logo_and_contacts .contacts p{
+	display: inline-block;
+	opacity: .7;
+	margin: 12px 0;
+}
+
+.s_footer .logo_and_contacts .soc_icons{
+	margin-top: 30px;
+	font-size: 0;
+}
+
+.s_footer .logo_and_contacts .soc_icons a{
+	margin-right: 28px;
+}
+
+.s_footer .logo_and_contacts .soc_icons a:last-child{
+	margin-right: 0;
+}
+
+.s_footer .logo_and_contacts .soc_icons a img{
+	width: 34px;
+	height: 34px;
+	opacity: .9;
+	transition: .2s;
+}
+
+.s_footer .logo_and_contacts .soc_icons a img:hover{
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.s_footer .map .title{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	font-family: "GothamPro-Bold";
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+

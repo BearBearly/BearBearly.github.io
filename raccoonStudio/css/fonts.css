@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "GothamPro-Light";
+	src: url("../fonts/GothamPro-Light/GothamPro-LightGothamPro-Light.eot");
+	src: url("../fonts/GothamPro-Light/GothamPro-Light.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamPro-Light/GothamPro-Light.woff") format("woff"),
+	url("../fonts/GothamPro-Light/GothamPro-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GothamPro-Medium";
+	src: url("../fonts/GothamPro-Medium/GothamPro-Medium.eot");
+	src: url("../fonts/GothamPro-Medium/GothamPro-Medium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamPro-Medium/GothamPro-Medium.woff") format("woff"),
+	url("../fonts/GothamPro-Medium/GothamPro-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GothamPro-Bold";
+	src: url("../fonts/GothamPro-Bold/GothamPro-Bold.eot");
+	src: url("../fonts/GothamPro-Bold/GothamPro-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamPro-Bold/GothamPro-Bold.woff") format("woff"),
+	url("../fonts/GothamPro-Bold/GothamPro-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "GothamPro";
+	src: url("../fonts/GothamPro/GothamPro.eot");
+	src: url("../fonts/GothamPro/GothamPro.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamPro/GothamPro.woff") format("woff"),
+	url("../fonts/GothamPro/GothamPro.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ClearSans-Bold";
+	src: url("../fonts/ClearSans-Bold/ClearSans-Bold.eot");
+	src: url("../fonts/ClearSans-Bold/ClearSans-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ClearSans-Bold/ClearSans-Bold.woff") format("woff"),
+	url("../fonts/ClearSans-Bold/ClearSans-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
