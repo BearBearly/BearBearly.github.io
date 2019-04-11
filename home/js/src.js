@@ -25,6 +25,6 @@ $(".toggle-main-nav").click(function() {
 $(".main-nav ul a").on("click", function (event) {
   event.preventDefault();
   var id  = $(this).attr('href'),
-  top = $(id).offset().top-370;
+  top = $(id).offset().top-200;
   $('body,html').animate({scrollTop: top}, 1500);
 });
