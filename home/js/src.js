@@ -28,3 +28,5 @@ $(".main-nav ul a").on("click", function (event) {
   top = $(id).offset().top-200;
   $('body,html').animate({scrollTop: top}, 1500);
 });
+
+$("html, body").animate({ scrollTop: $('#about').offset().top-200 }, 1000);
